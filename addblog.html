@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand</title>
+    <link rel="stylesheet" href="addblg.css">
+</head>
+<body>
+    <a href="seeAllBlogs.html" class="seeall"> go back</a>
+    <div class="blog-form">
+        <h2>Add blog</h2>
+        <form class="blog" action="" method="post">
+    
+       <input type="text" name="name" class="text-box title" placeholder="title..." required><br>
+       <input type="file" id="avatar" name="avatar" class="text-box image" accept="image/png, image/jpeg">
+       <textarea name="message"  rows="10" class="text" placeholder="a body rrrrof a blog..." required></textarea>
+       <input type="text" name="subject" class="text-box author"  placeholder="author" required>
+       <input type="submit" name="submit" class="send-btn" value="post">
+    </form>
+    <p style="color: red;" class="error"></p>
+    </div>
+    <script src="./js/post.js"></script>
+</body>
+
+</html>
